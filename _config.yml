@@ -10,6 +10,7 @@ title:            Dongwei Xu
 tagline:          ''
 description:      'PhD candidate in Economics at Boston University'
 url:              http://dongweix.github.io
+baseurl:          /
 
 # Author
 author:
