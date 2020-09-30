@@ -6,7 +6,7 @@ title: Teaching
 ##### Instructor
 
 - Introductory Macroeconomic Analysis, Department of Economics, Boston University, Summer 2018, Summer 2019
-- Check out the [evaluation](/archive/dongweixu_cv.pdf).
+- Check out the [evaluation](/archive/dongweixu_courseevaluation.pdf).
 
 ##### Teaching Assistant
 

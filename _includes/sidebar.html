@@ -1,43 +1,44 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
-  <!-- <div class="container"> -->
+    <!-- <div class="container"> -->
+    <img src='{{"/public/IMG_3914.JPG" | absolute_url}}'>
     <div class="sidebar-about">
       <h1>
-        <a href="/">
-          {{ site.title }}
-        </a>
+      <a href="/">
+        {{ site.title }}
+      </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">
+        {{ site.description }}
+      </p>
     </div>
-
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
-
       {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
         {% endif %}
-      {% endfor %}
-
-      <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/dongweixu_cv.pdf">CV</a> -->
-      <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
-      <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
-    </nav>
-
-    <!-- <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p> -->
-    <p>
-      My <a href="{{ site.github.repo }}/archive/dongweixu_cv.pdf">CV</a> and my <a href="mailto:xud@bu.edu">email</a>
-    </p>
-    <p>
-      Last updated: {{ site.time | date: '%d %b %Y' }}
-    </p>
-  </div>
+      {% endif %}
+    {% endfor %}
+    <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/dongweixu_cv.pdf">CV</a> -->
+    <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
+    <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
+  </nav>
+  <!-- <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p> -->
+<!--   <p>
+    Quick Access:
+    <a href="{{ site.github.repo }}/archive/dongweixu_jmp.pdf"> [JMP]</a>
+    <a href="{{ site.github.repo }}/archive/dongweixu_cv.pdf">[CV]</a>
+    <a href="mailto:xud@bu.edu">[Email]</a>
+  </p> -->
+  <p>
+    Lastly updated: {{ site.time | date: '%d %b %Y' }}
+  </p>
+</div>
 </div>
