@@ -17,8 +17,17 @@ author:
   name:           'Dongwei Xu'
   url:            http://dongweix.github.io
 
+# Posts Max
 paginate:         5
+
 plugins:
   - jekyll-paginate
   - jekyll-gist
   - redcarpet
+exclude:
+  - CNAME
+  - LICENSE
+  - README
+  - Gemfile
+  - Gemfile.lock
+  - draft/
