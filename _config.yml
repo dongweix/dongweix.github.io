@@ -17,7 +17,7 @@ author:
   name:           'Dongwei Xu'
   url:            http://dongweix.github.io
 
-paginate:         0
+paginate:         5
 plugins:
   - jekyll-paginate
   - jekyll-gist
