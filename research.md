@@ -19,6 +19,6 @@ title: Research
 
 ## Work in Progress
 
-- Reasonable Risk Aversion (with [Marianne Baxter](https://sites.google.com/view/marianne-baxter/))
+- Consumption of Stockholders and Nonstockholders: New Evidence from the PSID (with [Marianne Baxter](https://sites.google.com/view/marianne-baxter/))
 - The Hours Premium in U.S. Asset-Pricing
 - Firm-Level Political Risk in China
