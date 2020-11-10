@@ -1,1 +1,0 @@
-References: [Marianne Baxter](mailto:mbaxter@bu.edu), [Stephen Terry](mailto:stephent@bu.edu), [Andrea Vedolin](mailto:avedolin@bu.edu)
